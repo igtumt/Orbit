@@ -1,0 +1,15 @@
+GEMİNİ
+Orbit key
+Apikey
+AIzaSyCncyF1xaCyU4yTD9fCOqJgoyYJYBToEds
+
+Projectname 
+projects/222991355387
+
+Projectnumber
+222991355387
+
+pub fn maas_hesapla(gunluk_ucret: i32, calisilan_gun: i32) -> i32 {
+    gunluk_ucret * calisilan_gun
+}
+
