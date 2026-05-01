@@ -9,7 +9,15 @@ projects/222991355387
 Projectnumber
 222991355387
 
-pub fn maas_hesapla(gunluk_ucret: i32, calisilan_gun: i32) -> i32 {
-    gunluk_ucret * calisilan_gun
-}
+# Sanal ortamı oluştur (Mac/Linux/Windows uyumlu)
+python -m venv venv
 
+# Sanal ortamı aktif et (Mac/Linux için)
+source venv/bin/activate
+
+# (Eğer Windows kullanıyorsan üstteki yerine şunu çalıştır:)
+# venv\Scripts\activate
+
+git add .
+git commit -m "docs: README added"
+it push origin main
